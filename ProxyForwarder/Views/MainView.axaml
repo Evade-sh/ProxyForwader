@@ -20,10 +20,10 @@
 		<vm:MainViewModel />
 	</Design.DataContext>
 
-	<StackPanel Margin="5" Spacing="5">
+	<StackPanel Margin="15" Spacing="15">
 		<!--  Proxy Settings Group  -->
 
-		<suki:GlassCard Margin="0,0,0,10">
+		<suki:GlassCard Margin="0,0,0,0">
 			<StackPanel>
 				<TextBlock
                     Margin="0,0,0,10"
@@ -34,7 +34,7 @@
                     suki:TextBoxExtensions.AddDeleteButton="True"
                     IsEnabled="{Binding !IsServerRunning, Mode=TwoWay}"
                     Text="{Binding ProxyString}"
-                    Watermark="Proxy string" />
+                    Watermark="Proxy string (format: user:pass@host:port)" />
 
 				<ComboBox
                     IsEnabled="{Binding !IsServerRunning, Mode=TwoWay}"
@@ -76,6 +76,7 @@
                         Minimum="1"
                         ParsingNumberStyle="Integer"
                         Watermark="Port"
+						Margin="5,0,5,0"
                         Value="{Binding Port}" />
 				</Grid>
 			</StackPanel>
@@ -88,18 +89,29 @@
                     Margin="0,0,0,10"
                     FontWeight="Bold"
                     Text="Local server" />
-				<NumericUpDown
+				<Grid ColumnDefinitions="*,150" RowDefinitions="Auto,Auto">
+					<NumericUpDown
                     FormatString="0"
                     IsEnabled="{Binding !IsServerRunning}"
                     Minimum="1"
                     ParsingNumberStyle="Integer"
+					Grid.Row="0"
+                Grid.Column="0"
                     Value="{Binding LocalPort}" />
+					<Button
+				Content="Copy proxy"
+				Grid.Row="0"
+                Grid.Column="1"
+				Margin="10,0,0,0"
+				Command="{Binding CopyProxyLinkCommand}"
+				IsEnabled="{Binding IsServerRunning}" />
+				</Grid>
 			</StackPanel>
 		</suki:GlassCard>
 
 		<!--  Run Server Button  -->
 		<Button
-            Margin="0,20,0,0"
+            Margin="0,10,0,0"
             HorizontalAlignment="Center"
             Command="{Binding ToggleServerCommand}"
             Content="{Binding ButtonText}"

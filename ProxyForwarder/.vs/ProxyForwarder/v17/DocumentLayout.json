@@ -1,25 +1,55 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\maxim\\source\\repos\\ProxyForwarder\\",
+  "WorkspaceRootPath": "C:\\Users\\nice\\source\\repos\\ProxyForwarder\\ProxyForwarder\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F9823497-18E2-4F40-B744-4C071B385F7E}|ProxyForwarder.csproj|c:\\users\\maxim\\source\\repos\\proxyforwarder\\httpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F9823497-18E2-4F40-B744-4C071B385F7E}|ProxyForwarder.csproj|solutionrelative:httpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F9823497-18E2-4F40-B744-4C071B385F7E}|ProxyForwarder.csproj|c:\\users\\nice\\source\\repos\\proxyforwarder\\proxyforwarder\\views\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F9823497-18E2-4F40-B744-4C071B385F7E}|ProxyForwarder.csproj|solutionrelative:views\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9823497-18E2-4F40-B744-4C071B385F7E}|ProxyForwarder.csproj|c:\\users\\maxim\\source\\repos\\proxyforwarder\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F9823497-18E2-4F40-B744-4C071B385F7E}|ProxyForwarder.csproj|c:\\users\\nice\\source\\repos\\proxyforwarder\\proxyforwarder\\views\\mainview.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F9823497-18E2-4F40-B744-4C071B385F7E}|ProxyForwarder.csproj|solutionrelative:views\\mainview.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9823497-18E2-4F40-B744-4C071B385F7E}|ProxyForwarder.csproj|c:\\users\\nice\\source\\repos\\proxyforwarder\\proxyforwarder\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F9823497-18E2-4F40-B744-4C071B385F7E}|ProxyForwarder.csproj|solutionrelative:viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9823497-18E2-4F40-B744-4C071B385F7E}|ProxyForwarder.csproj|c:\\users\\maxim\\source\\repos\\proxyforwarder\\views\\mainview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{F9823497-18E2-4F40-B744-4C071B385F7E}|ProxyForwarder.csproj|solutionrelative:views\\mainview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+      "AbsoluteMoniker": "D:0:0:{F9823497-18E2-4F40-B744-4C071B385F7E}|ProxyForwarder.csproj|c:\\users\\nice\\source\\repos\\proxyforwarder\\proxyforwarder\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9823497-18E2-4F40-B744-4C071B385F7E}|ProxyForwarder.csproj|solutionrelative:viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9823497-18E2-4F40-B744-4C071B385F7E}|ProxyForwarder.csproj|c:\\users\\maxim\\source\\repos\\proxyforwarder\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{F9823497-18E2-4F40-B744-4C071B385F7E}|ProxyForwarder.csproj|solutionrelative:views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+      "AbsoluteMoniker": "D:0:0:{F9823497-18E2-4F40-B744-4C071B385F7E}|ProxyForwarder.csproj|c:\\users\\nice\\source\\repos\\proxyforwarder\\proxyforwarder\\proxymethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9823497-18E2-4F40-B744-4C071B385F7E}|ProxyForwarder.csproj|solutionrelative:proxymethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Max\\source\\repos\\ProxyForwarder.Desktop\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F9823497-18E2-4F40-B744-4C071B385F7E}|ProxyForwarder.csproj|c:\\users\\nice\\source\\repos\\proxyforwarder\\proxyforwarder\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9823497-18E2-4F40-B744-4C071B385F7E}|ProxyForwarder.csproj|solutionrelative:app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67A0EBFC-7310-4FF8-A7E4-820F6B033EE5}|..\\ProxyForwarder.Desktop\\ProxyForwarder.Desktop.csproj|c:\\users\\nice\\source\\repos\\proxyforwarder\\proxyforwarder.desktop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67A0EBFC-7310-4FF8-A7E4-820F6B033EE5}|..\\ProxyForwarder.Desktop\\ProxyForwarder.Desktop.csproj|c:\\users\\nice\\source\\repos\\proxyforwarder\\proxyforwarder.desktop\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9823497-18E2-4F40-B744-4C071B385F7E}|ProxyForwarder.csproj|c:\\users\\nice\\source\\repos\\proxyforwarder\\proxyforwarder\\app.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F9823497-18E2-4F40-B744-4C071B385F7E}|ProxyForwarder.csproj|solutionrelative:app.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9823497-18E2-4F40-B744-4C071B385F7E}|ProxyForwarder.csproj|c:\\users\\nice\\source\\repos\\proxyforwarder\\proxyforwarder\\messenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9823497-18E2-4F40-B744-4C071B385F7E}|ProxyForwarder.csproj|solutionrelative:messenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9823497-18E2-4F40-B744-4C071B385F7E}|ProxyForwarder.csproj|c:\\users\\nice\\source\\repos\\proxyforwarder\\proxyforwarder\\httpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9823497-18E2-4F40-B744-4C071B385F7E}|ProxyForwarder.csproj|solutionrelative:httpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9823497-18E2-4F40-B744-4C071B385F7E}|ProxyForwarder.csproj|c:\\users\\nice\\source\\repos\\proxyforwarder\\proxyforwarder\\views\\mainview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9823497-18E2-4F40-B744-4C071B385F7E}|ProxyForwarder.csproj|solutionrelative:views\\mainview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67A0EBFC-7310-4FF8-A7E4-820F6B033EE5}|..\\ProxyForwarder.Desktop\\ProxyForwarder.Desktop.csproj|c:\\users\\nice\\source\\repos\\proxyforwarder\\proxyforwarder.desktop\\proxyforwarder.desktop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,67 +59,175 @@
       "DocumentGroups": [
         {
           "DockedWidth": 150,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProxyMethod.cs",
+              "DocumentMoniker": "C:\\Users\\nice\\source\\repos\\ProxyForwarder\\ProxyForwarder\\ProxyMethod.cs",
+              "RelativeDocumentMoniker": "ProxyMethod.cs",
+              "ToolTip": "C:\\Users\\nice\\source\\repos\\ProxyForwarder\\ProxyForwarder\\ProxyMethod.cs",
+              "RelativeToolTip": "ProxyMethod.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T11:04:08.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.axaml",
+              "DocumentMoniker": "C:\\Users\\nice\\source\\repos\\ProxyForwarder\\ProxyForwarder\\App.axaml",
+              "RelativeDocumentMoniker": "App.axaml",
+              "ToolTip": "C:\\Users\\nice\\source\\repos\\ProxyForwarder\\ProxyForwarder\\App.axaml",
+              "RelativeToolTip": "App.axaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-29T11:04:05.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "app.manifest",
+              "DocumentMoniker": "C:\\Users\\nice\\source\\repos\\ProxyForwarder\\ProxyForwarder.Desktop\\app.manifest",
+              "RelativeDocumentMoniker": "..\\ProxyForwarder.Desktop\\app.manifest",
+              "ToolTip": "C:\\Users\\nice\\source\\repos\\ProxyForwarder\\ProxyForwarder.Desktop\\app.manifest",
+              "RelativeToolTip": "..\\ProxyForwarder.Desktop\\app.manifest",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
+              "WhenOpened": "2024-12-29T11:04:00.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MainWindow.axaml",
-              "DocumentMoniker": "C:\\Users\\maxim\\source\\repos\\ProxyForwarder\\Views\\MainWindow.axaml",
-              "RelativeDocumentMoniker": "Views\\MainWindow.axaml",
-              "ToolTip": "C:\\Users\\maxim\\source\\repos\\ProxyForwarder\\Views\\MainWindow.axaml",
-              "RelativeToolTip": "Views\\MainWindow.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-22T17:01:45.636Z",
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "C:\\Users\\nice\\source\\repos\\ProxyForwarder\\ProxyForwarder\\ViewModels\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ViewModelBase.cs",
+              "ToolTip": "C:\\Users\\nice\\source\\repos\\ProxyForwarder\\ProxyForwarder\\ViewModels\\ViewModelBase.cs",
+              "RelativeToolTip": "ViewModels\\ViewModelBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T10:57:11.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nice\\source\\repos\\ProxyForwarder\\ProxyForwarder.Desktop\\Program.cs",
+              "RelativeDocumentMoniker": "..\\ProxyForwarder.Desktop\\Program.cs",
+              "ToolTip": "C:\\Users\\nice\\source\\repos\\ProxyForwarder\\ProxyForwarder.Desktop\\Program.cs",
+              "RelativeToolTip": "..\\ProxyForwarder.Desktop\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T10:34:09.306Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MainView.axaml",
-              "DocumentMoniker": "C:\\Users\\maxim\\source\\repos\\ProxyForwarder\\Views\\MainView.axaml",
-              "RelativeDocumentMoniker": "Views\\MainView.axaml",
-              "ToolTip": "C:\\Users\\maxim\\source\\repos\\ProxyForwarder\\Views\\MainView.axaml",
-              "RelativeToolTip": "Views\\MainView.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-22T17:01:09.079Z",
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\nice\\source\\repos\\ProxyForwarder\\ProxyForwarder\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\nice\\source\\repos\\ProxyForwarder\\ProxyForwarder\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAYwKoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T10:29:26.858Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Max\\source\\repos\\ProxyForwarder.Desktop\\Program.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Max\\source\\repos\\ProxyForwarder.Desktop\\Program.cs",
-              "ToolTip": "C:\\Users\\Max\\source\\repos\\ProxyForwarder.Desktop\\Program.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\Max\\source\\repos\\ProxyForwarder.Desktop\\Program.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T09:35:49.622Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HttpServer.cs",
-              "DocumentMoniker": "C:\\Users\\maxim\\source\\repos\\ProxyForwarder\\HttpServer.cs",
-              "RelativeDocumentMoniker": "HttpServer.cs",
-              "ToolTip": "C:\\Users\\maxim\\source\\repos\\ProxyForwarder\\HttpServer.cs",
-              "RelativeToolTip": "HttpServer.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwCYAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T08:59:37.584Z",
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\nice\\source\\repos\\ProxyForwarder\\ProxyForwarder\\Views\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "Views\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\nice\\source\\repos\\ProxyForwarder\\ProxyForwarder\\Views\\MainWindow.axaml",
+              "RelativeToolTip": "Views\\MainWindow.axaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-29T10:26:24.874Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\maxim\\source\\repos\\ProxyForwarder\\ViewModels\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\MainViewModel.cs",
-              "ToolTip": "C:\\Users\\maxim\\source\\repos\\ProxyForwarder\\ViewModels\\MainViewModel.cs",
-              "RelativeToolTip": "ViewModels\\MainViewModel.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAWwIIAAAANAAAAAAAAAA==",
+              "Title": "MainView.axaml",
+              "DocumentMoniker": "C:\\Users\\nice\\source\\repos\\ProxyForwarder\\ProxyForwarder\\Views\\MainView.axaml",
+              "RelativeDocumentMoniker": "Views\\MainView.axaml",
+              "ToolTip": "C:\\Users\\nice\\source\\repos\\ProxyForwarder\\ProxyForwarder\\Views\\MainView.axaml",
+              "RelativeToolTip": "Views\\MainView.axaml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACQAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-29T10:23:43.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HttpServer.cs",
+              "DocumentMoniker": "C:\\Users\\nice\\source\\repos\\ProxyForwarder\\ProxyForwarder\\HttpServer.cs",
+              "RelativeDocumentMoniker": "HttpServer.cs",
+              "ToolTip": "C:\\Users\\nice\\source\\repos\\ProxyForwarder\\ProxyForwarder\\HttpServer.cs",
+              "RelativeToolTip": "HttpServer.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowDgAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T11:58:28.823Z",
+              "WhenOpened": "2024-12-29T10:23:36.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\nice\\source\\repos\\ProxyForwarder\\ProxyForwarder\\App.axaml.cs",
+              "RelativeDocumentMoniker": "App.axaml.cs",
+              "ToolTip": "C:\\Users\\nice\\source\\repos\\ProxyForwarder\\ProxyForwarder\\App.axaml.cs",
+              "RelativeToolTip": "App.axaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T10:23:35.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Messenger.cs",
+              "DocumentMoniker": "C:\\Users\\nice\\source\\repos\\ProxyForwarder\\ProxyForwarder\\Messenger.cs",
+              "RelativeDocumentMoniker": "Messenger.cs",
+              "ToolTip": "C:\\Users\\nice\\source\\repos\\ProxyForwarder\\ProxyForwarder\\Messenger.cs",
+              "RelativeToolTip": "Messenger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T10:23:28.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainView.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\nice\\source\\repos\\ProxyForwarder\\ProxyForwarder\\Views\\MainView.axaml.cs",
+              "RelativeDocumentMoniker": "Views\\MainView.axaml.cs",
+              "ToolTip": "C:\\Users\\nice\\source\\repos\\ProxyForwarder\\ProxyForwarder\\Views\\MainView.axaml.cs",
+              "RelativeToolTip": "Views\\MainView.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T10:23:44.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProxyForwarder.Desktop",
+              "DocumentMoniker": "C:\\Users\\nice\\source\\repos\\ProxyForwarder\\ProxyForwarder.Desktop\\ProxyForwarder.Desktop.csproj",
+              "RelativeDocumentMoniker": "..\\ProxyForwarder.Desktop\\ProxyForwarder.Desktop.csproj",
+              "ToolTip": "C:\\Users\\nice\\source\\repos\\ProxyForwarder\\ProxyForwarder.Desktop\\ProxyForwarder.Desktop.csproj",
+              "RelativeToolTip": "..\\ProxyForwarder.Desktop\\ProxyForwarder.Desktop.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-29T10:26:15.23Z",
               "EditorCaption": ""
             }
           ]

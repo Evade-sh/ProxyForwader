@@ -1,13 +1,22 @@
-﻿using CommunityToolkit.Mvvm.ComponentModel;
+﻿using Avalonia;
+using Avalonia.Controls;
+using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using CommunityToolkit.Mvvm.Messaging;
 using System;
 using System.Collections.Generic;
+using Avalonia;
+using Avalonia.Controls;
+using Avalonia.VisualTree;
+using Avalonia.Input.Platform;
+using Avalonia.Controls.ApplicationLifetimes;
 
 namespace ProxyForwarder.ViewModels;
 
 public partial class MainViewModel : ViewModelBase
 {
+    public Window? Window { get; set; }
+
     private string _ip = string.Empty;
     private int? _localPort = 3000;
     private string _password = string.Empty;
@@ -82,6 +91,12 @@ public partial class MainViewModel : ViewModelBase
     {
         get => _proxyString; set
         {
+            if (value.Length == 0)
+            {
+                SetProperty(ref _proxyString, value);
+                return;
+            }
+
             if (!value.Contains("://"))
             {
                 value = "http://" + value; // Default to HTTP if no protocol is present
@@ -92,7 +107,17 @@ public partial class MainViewModel : ViewModelBase
                 ProxyMethod = value.StartsWith("http://") ? ProxyMethod.HTTP : ProxyMethod.SOCKS5;
             }
 
-            var uri = new Uri(value);
+           Uri uri;
+
+            try
+            {
+                 uri = new Uri(value);
+            }
+            catch (Exception ex)
+            {
+                SetProperty(ref _proxyString, value);
+                return;
+            }
 
             if (!string.IsNullOrEmpty(uri.UserInfo))
             {
@@ -138,6 +163,13 @@ public partial class MainViewModel : ViewModelBase
         {
             Console.WriteLine(ex.Message);
         }
+    }
+
+    [RelayCommand]
+    public void CopyProxyLink()
+    {
+        var url = "http://localhost:" + _localPort;
+        if (this.Window != null && this.Window.Clipboard != null) this.Window.Clipboard.SetTextAsync(url);
     }
 
     private void CheckIfEnabled()
