@@ -1,0 +1,24 @@
+<sukiUi:SukiWindow
+    x:Class="ProxyForwarder.Views.MainWindow"
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:sukiUi="clr-namespace:SukiUI.Controls;assembly=SukiUI"
+    xmlns:views="clr-namespace:ProxyForwarder.Views"
+    xmlns:vm="using:ProxyForwarder.ViewModels"
+    Title="Proxy Forwarder"
+    Width="400"
+	BackgroundStyle="Bubble"
+    Height="500"
+	TransparencyLevelHint="Transparent"
+	ExtendClientAreaToDecorationsHint="True"
+	SystemDecorations="None"
+    CanMaximize="False"
+    CanResize="False"
+    Focusable="True"
+    Icon="/Assets/avalonia-logo.ico"
+    WindowStartupLocation="CenterScreen"
+    mc:Ignorable="d">
+	<views:MainView />
+</sukiUi:SukiWindow>

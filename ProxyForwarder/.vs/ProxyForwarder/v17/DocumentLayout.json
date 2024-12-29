@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\maxim\\source\\repos\\ProxyForwarder\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F9823497-18E2-4F40-B744-4C071B385F7E}|ProxyForwarder.csproj|c:\\users\\maxim\\source\\repos\\proxyforwarder\\httpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9823497-18E2-4F40-B744-4C071B385F7E}|ProxyForwarder.csproj|solutionrelative:httpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9823497-18E2-4F40-B744-4C071B385F7E}|ProxyForwarder.csproj|c:\\users\\maxim\\source\\repos\\proxyforwarder\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9823497-18E2-4F40-B744-4C071B385F7E}|ProxyForwarder.csproj|solutionrelative:viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9823497-18E2-4F40-B744-4C071B385F7E}|ProxyForwarder.csproj|c:\\users\\maxim\\source\\repos\\proxyforwarder\\views\\mainview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{F9823497-18E2-4F40-B744-4C071B385F7E}|ProxyForwarder.csproj|solutionrelative:views\\mainview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9823497-18E2-4F40-B744-4C071B385F7E}|ProxyForwarder.csproj|c:\\users\\maxim\\source\\repos\\proxyforwarder\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{F9823497-18E2-4F40-B744-4C071B385F7E}|ProxyForwarder.csproj|solutionrelative:views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Max\\source\\repos\\ProxyForwarder.Desktop\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 150,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\maxim\\source\\repos\\ProxyForwarder\\Views\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "Views\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\maxim\\source\\repos\\ProxyForwarder\\Views\\MainWindow.axaml",
+              "RelativeToolTip": "Views\\MainWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-22T17:01:45.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainView.axaml",
+              "DocumentMoniker": "C:\\Users\\maxim\\source\\repos\\ProxyForwarder\\Views\\MainView.axaml",
+              "RelativeDocumentMoniker": "Views\\MainView.axaml",
+              "ToolTip": "C:\\Users\\maxim\\source\\repos\\ProxyForwarder\\Views\\MainView.axaml",
+              "RelativeToolTip": "Views\\MainView.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-22T17:01:09.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Max\\source\\repos\\ProxyForwarder.Desktop\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Max\\source\\repos\\ProxyForwarder.Desktop\\Program.cs",
+              "ToolTip": "C:\\Users\\Max\\source\\repos\\ProxyForwarder.Desktop\\Program.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Max\\source\\repos\\ProxyForwarder.Desktop\\Program.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T09:35:49.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HttpServer.cs",
+              "DocumentMoniker": "C:\\Users\\maxim\\source\\repos\\ProxyForwarder\\HttpServer.cs",
+              "RelativeDocumentMoniker": "HttpServer.cs",
+              "ToolTip": "C:\\Users\\maxim\\source\\repos\\ProxyForwarder\\HttpServer.cs",
+              "RelativeToolTip": "HttpServer.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwCYAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T08:59:37.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\maxim\\source\\repos\\ProxyForwarder\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\maxim\\source\\repos\\ProxyForwarder\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAWwIIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T11:58:28.823Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

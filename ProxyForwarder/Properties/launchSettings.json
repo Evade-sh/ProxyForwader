@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "ProxyForwarder": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:61977;http://localhost:61978"
+    }
+  }
+}

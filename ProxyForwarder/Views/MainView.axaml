@@ -1,0 +1,108 @@
+<UserControl
+    x:Class="ProxyForwarder.Views.MainView"
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:ProxyForwarder;assembly=ProxyForwarder"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:suki="https://github.com/kikipoulet/SukiUI"
+    xmlns:vm="clr-namespace:ProxyForwarder.ViewModels"
+    x:DataType="vm:MainViewModel"
+    Design.Height="400"
+    Design.Width="400"
+    mc:Ignorable="d">
+	
+	<Design.DataContext>
+		<!--
+            This only sets the DataContext for the previewer in an IDE,
+            to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs)
+        -->
+		<vm:MainViewModel />
+	</Design.DataContext>
+
+	<StackPanel Margin="5" Spacing="5">
+		<!--  Proxy Settings Group  -->
+
+		<suki:GlassCard Margin="0,0,0,10">
+			<StackPanel>
+				<TextBlock
+                    Margin="0,0,0,10"
+                    FontWeight="Bold"
+                    Text="Proxy Settings" />
+				<!--  Proxy String Input  -->
+				<TextBox
+                    suki:TextBoxExtensions.AddDeleteButton="True"
+                    IsEnabled="{Binding !IsServerRunning, Mode=TwoWay}"
+                    Text="{Binding ProxyString}"
+                    Watermark="Proxy string" />
+
+				<ComboBox
+                    IsEnabled="{Binding !IsServerRunning, Mode=TwoWay}"
+                    ItemsSource="{Binding ProxyMethodValues}"
+                    SelectedItem="{Binding ProxyMethod, Mode=TwoWay}" />
+
+				<!--  Grid for Username, Password, IP Address, and Port  -->
+				<Grid ColumnDefinitions="*,*" RowDefinitions="Auto,Auto">
+					<!--  Username  -->
+					<TextBox
+                        Grid.Row="0"
+                        Grid.Column="0"
+                        IsEnabled="{Binding !IsServerRunning, Mode=TwoWay}"
+                        Text="{Binding Username}"
+                        Watermark="Username" />
+
+					<!--  Password  -->
+					<TextBox
+                        Grid.Row="0"
+                        Grid.Column="1"
+                        IsEnabled="{Binding !IsServerRunning, Mode=TwoWay}"
+                        Text="{Binding Password}"
+                        Watermark="Password" />
+
+					<!--  IP Address  -->
+					<TextBox
+                        Grid.Row="1"
+                        Grid.Column="0"
+                        IsEnabled="{Binding !IsServerRunning, Mode=TwoWay}"
+                        Text="{Binding Ip}"
+                        Watermark="Host" />
+
+					<!--  Port  -->
+					<NumericUpDown
+                        Grid.Row="1"
+                        Grid.Column="1"
+                        FormatString="0"
+                        IsEnabled="{Binding !IsServerRunning}"
+                        Minimum="1"
+                        ParsingNumberStyle="Integer"
+                        Watermark="Port"
+                        Value="{Binding Port}" />
+				</Grid>
+			</StackPanel>
+		</suki:GlassCard>
+
+		<!--  Local Port Selector  -->
+		<suki:GlassCard>
+			<StackPanel>
+				<TextBlock
+                    Margin="0,0,0,10"
+                    FontWeight="Bold"
+                    Text="Local server" />
+				<NumericUpDown
+                    FormatString="0"
+                    IsEnabled="{Binding !IsServerRunning}"
+                    Minimum="1"
+                    ParsingNumberStyle="Integer"
+                    Value="{Binding LocalPort}" />
+			</StackPanel>
+		</suki:GlassCard>
+
+		<!--  Run Server Button  -->
+		<Button
+            Margin="0,20,0,0"
+            HorizontalAlignment="Center"
+            Command="{Binding ToggleServerCommand}"
+            Content="{Binding ButtonText}"
+            IsEnabled="{Binding IsButtonEnabled}" />
+	</StackPanel>
+</UserControl>
